@@ -76,12 +76,12 @@ To use this solution in your project, follow these steps:
   
       private void OnMove(InputAction.CallbackContext context)
       {
-          moveInput = context.ReadValue<Vector2>(); initialize the moveInput with the vector from input
+          moveInput = context.ReadValue<Vector2>(); // initialize the moveInput with the vector from input
       }
 
       private void FixedUpdate()
       {
-          rb.linearVelocity = moveInput * speed; update the velocity with FixedUpdate so it will run smooth both on 30fps and 60fps
+          rb.linearVelocity = moveInput * speed; // update the velocity with FixedUpdate so it will run smooth both on 30fps and 60fps
       }
   }
 ```
