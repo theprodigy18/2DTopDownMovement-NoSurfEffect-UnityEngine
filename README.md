@@ -42,7 +42,7 @@ To use this solution in your project, follow these steps:
 3. **Update Your Player Controller Script**:
    Here is an updated script to demonstrate how Input Action is used:
 
-   ```csharp
+```csharp
   using System;
   using UnityEngine;
   using UnityEngine.InputSystem;
@@ -84,7 +84,7 @@ To use this solution in your project, follow these steps:
           rb.linearVelocity = moveInput * speed; update the velocity with FixedUpdate so it will run smooth both on 30fps and 60fps
       }
   }
-   ```
+```
 
 4. **Test and Adjust**:
    - Play your game and ensure that movement feels responsive and consistent in all directions.
